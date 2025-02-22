@@ -1,0 +1,40 @@
+
+   .header_outer_container{
+        position: sticky;
+        top:0;
+        display: flex;
+        justify-content: center;
+        background-color:rgb(20,20,20);
+        height: 10vh;
+        color: white;
+        transition: all 0.5s;
+        transition-timing-function: ease-in;
+        z-index: 100;
+        background-color: red;
+    }
+.Nav_back{
+background: rgb(20,20,20);
+}
+.hearder_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 0 20px;
+}
+.header_left ul{
+width: 140%;
+display: flex;
+justify-content: space-between;
+list-style: none;
+cursor: pointer;
+}
+.header_right ul{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    }
